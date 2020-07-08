@@ -1,0 +1,114 @@
+body, html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  line-height: 30px;
+}
+
+a {
+  color: black;
+}
+a:visited, a:hover {
+  color: black;
+}
+
+textarea {
+  resize: none;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+.button {
+  background-color: #ffe600;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+.rgba-yellow-strong {
+  background-color: #ffe600;
+}
+
+header .nav-item {
+  margin-left: 70px;
+  font-size: 15px;
+}
+@media (max-width: 767px) {
+  header .nav-item {
+    margin-left: 0;
+  }
+}
+header .header-content {
+  margin-top: 100px;
+}
+
+.portfolio {
+  margin-top: 80px;
+}
+.portfolio .nav-item:not(:first-child) {
+  margin-left: 30px;
+}
+@media (max-width: 767px) {
+  .portfolio .nav-item:not(:first-child) {
+    margin-left: 0;
+  }
+}
+.portfolio .nav-item:hover {
+  background-color: #ffe600;
+}
+.portfolio .portfolio-btn-dropdown:focus {
+  outline: 0;
+}
+
+.brands {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.team {
+  margin-bottom: 100px;
+}
+.team .img-fluid {
+  height: 450px;
+}
+.team .team-label {
+  font-size: 15px;
+}
+.team .team-mask {
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+}
+
+.our-blog {
+  margin-bottom: 100px;
+}
+.our-blog .card {
+  box-shadow: none;
+}
+.our-blog .card-img-top {
+  height: 300px;
+}
+@media (max-width: 991px) {
+  .our-blog .card-img-top {
+    height: 400px;
+  }
+}
+
+.page-footer {
+  padding: 40px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
